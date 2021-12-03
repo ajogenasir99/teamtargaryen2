@@ -2,7 +2,7 @@
 
     <div class="cart">
          <div class="header">
-            <router-link to="/"><h1>Shopping Website.</h1></router-link>
+            <router-link to="/home"><h1>Shopping Website.</h1></router-link>
             <img src="../assets/cartCheck.png">
         </div>
         <div class="main">

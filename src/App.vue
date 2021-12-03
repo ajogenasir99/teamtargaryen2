@@ -2,7 +2,7 @@
 
     <div>
    <app-shop class="app"></app-shop>
-
+    <!-- <home-page></home-page> -->
     <div class="data">
       <h1>{{msg}}</h1>
        <h2>{{love}}</h2>
@@ -17,10 +17,11 @@
 
 <script>
 import Shop from './Shop'
-
+import homepage from './components/homepage.vue'
 export default {
   components: {
     'app-shop': Shop,
+    'home-page': homepage
   },
 
   data:  function() {
